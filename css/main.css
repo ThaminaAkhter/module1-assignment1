@@ -6,9 +6,6 @@ body{
 h1{
     font-size: 70px;
 }
-.mission-area{
-    margin-bottom: 100px;
-}
 .flexible-item{
     display: flex;
 }
@@ -22,6 +19,9 @@ h1{
 .half-width img{
     width: 80%;
 }
+.mission-about-area{
+    margin-bottom: 100px;
+}
 .colored-letters{
     color: rgb(136, 225, 236)
 }
@@ -34,9 +34,7 @@ h1{
     padding: 10px 20px;
     background-color: rgb(86, 190, 216);
     color: white;
-}
-.half-width p{
-    padding-top: 50px;
+    font-weight: 700;
 }
 .mission-types-area{
     margin-bottom: 100px;
