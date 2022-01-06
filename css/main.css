@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+.mission-area{
+    margin-bottom: 100px;
+}
+.flexible-item{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width p{
+    font-size: 16px;
+}
+.half-width img{
+    width: 80%;
+}
+.colored-letters{
+    color: rgb(136, 225, 236)
+}
+#colored-border{
+    border-left: 7px solid;
+    border-color: plum;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(86, 190, 216);
+    color: white;
+}
+.half-width p{
+    padding-top: 50px;
+}
+.mission-types-area{
+    margin-bottom: 100px;
+}
+.mission-types h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.all-missions{
+    display: flex;
+    justify-content: center;
+}
+.types-design{
+    width: 250px;
+    margin-left: 20px;
+    padding-left: 20px;
+    height: 260px;
+    padding-bottom: 30px;
+}
+.types-design img{
+    width: 40%;
+    padding-top: 10%;
+    padding-left: 2%;
+    
+}
+.first-mission{
+    border:2px solid hidden gray;
+    border-radius: 10px;
+    background-color: rgb(108, 152, 161);
+    color: white;
+}
+.second-mission{
+    border:2px solid hidden gray;
+    border-radius: 10px;
+    background-color: rgb(235, 188, 101);
+    color: white;
+}
+.third-mission{
+    border:2px solid hidden gray;
+    border-radius: 10px;
+    background-color: rgb(115, 166, 221);
+    color: white;
+}
+.flexible-development{
+    display:flex;
+    justify-content: center;
+}
+.development-image{
+    width: 300px;
+    margin-left: 20px;
+}
+.development-details{
+    width: 500px;
+}
+.development-image img{
+    width: 250px;
+}
+.development-area{
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 600px
+}
+.flexible-experiences{
+    display:flex;
+    justify-content: center;
+}
+
+.experience-details{
+    width: 500px;
+    margin-left: 60px;
+    padding-left: 20px;
+}
+.experience-image{
+    width: 250px;
+    margin-left: 20px;
+}
+.experience-image img{
+    width: 250px;
+   
+}
+.experience-area{
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+}
+.all-dreams{
+    display: flex;
+    justify-content: center;
+}
+.dreams-area h1{
+    text-align: center;
+}
+.first-dream{
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #8888;
+    background: linear-gradient(to top, cyan 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.first-dream:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px cyan;
+}
+.second-dream{
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 5px solid rgb(233, 119, 172);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #8888;
+    background: linear-gradient(to top, rgb(233, 119, 172) 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.second-dream:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(233, 119, 172);
+}
+.dreams-area{
+    margin-bottom: 100px;
+}
+footer{
+    text-align: center;
+    background-color: tomato;
+    padding: 10px 0px 20px 0;
+}
+footer p{
+    color: white;
+}
